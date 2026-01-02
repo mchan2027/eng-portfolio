@@ -36,3 +36,20 @@
         color: rgb(39, 40, 34);
     }
 }
+
+
+.download-button {
+  background-color: #a122f5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-5px) scale(1.05); /* move up and slightly enlarge */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* subtle shadow */
+  }
+}

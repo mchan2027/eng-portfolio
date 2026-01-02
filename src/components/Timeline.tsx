@@ -7,62 +7,44 @@ import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 
 function Timeline() {
+
+  // Function to download the resume
+  const handleDownloadResume = () => {
+    const fileUrl = "/Resume Engineering.pdf"; // make sure this is in your public folder
+    const link = document.createElement("a");
+    link.href = fileUrl;
+    link.download = "Resume Engineering.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
-    <div id="history">
+    <div id="about me">
       <div className="items-container">
-        <h1>Career History</h1>
-        <VerticalTimeline>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+        <h1>About Me</h1>
+        <p style={{ fontSize: "20px" }}>
+          Hi, I'm Michael. I'm a <strong><span style={{ color: "#a122f5" }}>Mechanical Engineering</span></strong> student at Boston University passionate about innovating, creating, and improving designs of physical products/parts with a strong focus in manufacturing. I have hands-on experience in the <strong><span style={{ color: "#a122f5" }}>machine shop</span></strong>. I am also proficient in <strong><span style={{ color: "#a122f5" }}>SOLIDWORKS</span></strong>, where I develop and optimize 3D models. Outside of engineering, I enjoy playing sports, traveling, team-based video games, cooking, and working out.
+        </p>
+
+        {/* Download Resume Button */}
+        <div style={{ marginTop: "50px" }}>
+          <button
+            onClick={handleDownloadResume}
+            className="download-button"
+            style={{
+              backgroundColor: "#a122f5",
+              color: "white",
+              padding: "10px 20px",
+              borderRadius: "8px",
+              border: "none",
+              cursor: "pointer",
+              fontSize: "16px",
+            }}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
-            <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
-            </p>
-          </VerticalTimelineElement>
-        </VerticalTimeline>
+            Download Resume
+          </button>
+        </div>
       </div>
     </div>
   );
