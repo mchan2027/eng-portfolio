@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/engineering-portfolio/static/css/main.f05b8194.css",
+    "main.js": "/engineering-portfolio/static/js/main.dff89726.js",
+    "static/js/453.b05d8aa5.chunk.js": "/engineering-portfolio/static/js/453.b05d8aa5.chunk.js",
+    "static/media/video.mp4": "/engineering-portfolio/static/media/video.ef7daaad049c0927cf4b.mp4",
+    "static/media/Truss.png": "/engineering-portfolio/static/media/Truss.704c070b3978508ff7a5.png",
+    "static/media/bg-light.png": "/engineering-portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/engineering-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/CarSus.jpg": "/engineering-portfolio/static/media/CarSus.1329a4922aec02201cd3.jpg",
+    "static/media/Car.jpg": "/engineering-portfolio/static/media/Car.71ea2e612a38c42729f8.jpg",
+    "static/media/Plane.jpg": "/engineering-portfolio/static/media/Plane.e3556fab762a7c710ea0.jpg",
+    "static/media/Drone.jpg": "/engineering-portfolio/static/media/Drone.54dec3ea73c2102856cf.jpg",
+    "static/media/Temp.jpg": "/engineering-portfolio/static/media/Temp.a0c0b00f9c2e87c5c4f4.jpg",
+    "static/media/cab.jpg": "/engineering-portfolio/static/media/cab.f27c874f4a8596a33f96.jpg",
+    "static/media/accumulator.jpg": "/engineering-portfolio/static/media/accumulator.2bd6cec09fe13d769f29.jpg",
+    "index.html": "/engineering-portfolio/index.html",
+    "main.f05b8194.css.map": "/engineering-portfolio/static/css/main.f05b8194.css.map",
+    "main.dff89726.js.map": "/engineering-portfolio/static/js/main.dff89726.js.map",
+    "453.b05d8aa5.chunk.js.map": "/engineering-portfolio/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f05b8194.css",
+    "static/js/main.dff89726.js"
+  ]
+}
