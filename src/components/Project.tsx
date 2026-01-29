@@ -39,6 +39,11 @@ function Project() {
                 <p>Created a truss capable withstanding 57 oz, given restrictions, such as limited supplies and strict dimensions.</p>
             </div>
             <div className="project">
+                <a href="https://sites.google.com/view/accumulator-cart/home?authuser=2" target="_blank" rel="noreferrer"><img src={accumulator} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://sites.google.com/view/accumulator-cart/home?authuser=2" target="_blank" rel="noreferrer"><h2>Accumulator Cart</h2></a>
+                <p>This is a accumulator cart, designed to lift the battery into the car for Terrier Motorsports.</p>
+            </div>
+            <div className="project">
                 <a href="https://sites.google.com/view/quadplane/home?authuser=2" target="_blank" rel="noreferrer"><img src={Plane} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://sites.google.com/view/quadplane/home?authuser=2" target="_blank" rel="noreferrer"><h2>QuadPlane</h2></a>
                 <p>Currently in the works with Boston University UAV Club.</p>
@@ -47,11 +52,6 @@ function Project() {
                 <a href="https://sites.google.com/view/car-suspension/home?authuser=2" target="_blank" rel="noreferrer"><img src={CarSus} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://sites.google.com/view/car-suspension/home?authuser=2" target="_blank" rel="noreferrer"><h2>Car Suspension</h2></a>
                 <p>Currently in the works on improving the electric car with Boston University Terrier Motorsports.</p>
-            </div>
-            <div className="project">
-                <a href="https://sites.google.com/view/accumulator-cart/home?authuser=2" target="_blank" rel="noreferrer"><img src={accumulator} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://sites.google.com/view/accumulator-cart/home?authuser=2" target="_blank" rel="noreferrer"><h2>Accumulator Cart</h2></a>
-                <p>This is a accumulator cart, designed to lift the battery into the car for Terrier Motorsports.</p>
             </div>
             <div className="project">
                 <a href="https://sites.google.com/view/drone-michael/home?authuser=2" target="_blank" rel="noreferrer"><img src={Drone} className="zoom" alt="thumbnail" width="100%"/></a>

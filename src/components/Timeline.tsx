@@ -10,10 +10,10 @@ function Timeline() {
 
   // Function to download the resume
   const handleDownloadResume = () => {
-    const fileUrl = "/Resume Engineering.pdf"; // make sure this is in your public folder
+    const fileUrl = "/Eng Resume.pdf"; // make sure this is in your public folder
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.download = "Resume Engineering.pdf";
+    link.download = "Eng Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
