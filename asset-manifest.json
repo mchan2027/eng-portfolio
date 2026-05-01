@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/eng-portfolio/static/css/main.1f6ad2f0.css",
-    "main.js": "/eng-portfolio/static/js/main.79878ad1.js",
+    "main.js": "/eng-portfolio/static/js/main.e94b571c.js",
     "static/js/453.b05d8aa5.chunk.js": "/eng-portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/video.mp4": "/eng-portfolio/static/media/video.ef7daaad049c0927cf4b.mp4",
     "static/media/Truss.png": "/eng-portfolio/static/media/Truss.704c070b3978508ff7a5.png",
+    "static/media/UFO.png": "/eng-portfolio/static/media/UFO.c1351d3b78c9ee71d13c.png",
     "static/media/bg-light.png": "/eng-portfolio/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/eng-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/CarSus.jpg": "/eng-portfolio/static/media/CarSus.1329a4922aec02201cd3.jpg",
@@ -17,11 +18,11 @@
     "static/media/dryer.jpg": "/eng-portfolio/static/media/dryer.d74c43b009a45956ca6b.jpg",
     "index.html": "/eng-portfolio/index.html",
     "main.1f6ad2f0.css.map": "/eng-portfolio/static/css/main.1f6ad2f0.css.map",
-    "main.79878ad1.js.map": "/eng-portfolio/static/js/main.79878ad1.js.map",
+    "main.e94b571c.js.map": "/eng-portfolio/static/js/main.e94b571c.js.map",
     "453.b05d8aa5.chunk.js.map": "/eng-portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f6ad2f0.css",
-    "static/js/main.79878ad1.js"
+    "static/js/main.e94b571c.js"
   ]
 }
